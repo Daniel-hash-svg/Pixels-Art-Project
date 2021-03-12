@@ -1,10 +1,17 @@
+body{
+  background-color: rgba(20, 207, 220, 0.63);
+}
 h1 {
-  margin-left: 42px;
+  margin-left: 400px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-family: 'Press Start 2P', cursive;
 }
 
 ul {
   display: flex;
   list-style: none;
+  margin-left: 450px;
 }
 
 li {
@@ -30,20 +37,26 @@ li:nth-child(3) {
 }
 
 li:nth-child(4) {
-  background-color: pink;
+  background-color: rgba(9, 163, 9, 0.856);
   margin-left: 8px;
 }
 
 table {
-  margin-left: 44px;
+  margin-left: 494px;
 }
 
 .pixel {
   border: black solid 1px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   display: inline-block;
   background-color: white;
 
   border: 1px solid black
+}
+#clear-board{
+  margin-left: 300px;
+  font-size: 30px;
+  background-color: rgba(182, 37, 182, 0.685);
+  border: none;
 }

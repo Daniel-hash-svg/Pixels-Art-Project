@@ -20,19 +20,19 @@ window.onload=function(){
     
     let allPixels=document.querySelectorAll('.pixel')
 
-    let clickPink=document.getElementById('pink').addEventListener('click',paintPink)
+    let clickPink=document.getElementById('green').addEventListener('click',paintGreen)
    
     
-    function paintPink(){
+    function paintGreen(){
         for(let index=0;index<allPixels.length;index+=1){
             allPixels[index].addEventListener('click',function(){
-                if(allPixels[index].style.backgroundColor!='pink'){
-                    allPixels[index].style.backgroundColor='pink'
+                if(allPixels[index].style.backgroundColor!='rgba(9, 163, 9, 0.856)'){
+                    allPixels[index].style.backgroundColor='rgba(9, 163, 9, 0.856)'
                 }
             })
         }
     }
-     paintPink()
+     paintGreen()
 
     let clickBlue=document.getElementById('slateblue').addEventListener('click',paintBlue)
    
